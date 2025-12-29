@@ -193,9 +193,9 @@ fun SignUpScreen(
                 modifier = Modifier.fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                HorizontalDivider(
+                Divider(
                     modifier = Modifier.weight(1f),
-                    color = Divider
+                    color = com.island.app.ui.theme.Divider
                 )
                 Text(
                     text = stringResource(R.string.or_continue_with),
@@ -203,9 +203,9 @@ fun SignUpScreen(
                     style = MaterialTheme.typography.bodySmall,
                     color = TextSecondary
                 )
-                HorizontalDivider(
+                Divider(
                     modifier = Modifier.weight(1f),
-                    color = Divider
+                    color = com.island.app.ui.theme.Divider
                 )
             }
             
@@ -458,7 +458,7 @@ private fun SocialLoginButton(
             containerColor = backgroundColor
         ),
         border = if (borderColor != null) {
-            ButtonDefaults.outlinedButtonBorder(enabled = true)
+            ButtonDefaults.outlinedButtonBorder
         } else null
     ) {
         Row(
