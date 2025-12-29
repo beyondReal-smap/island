@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Teal/Turquoise Island Theme -->
+    <color name="primary">#FF1ABC9C</color>
+    <color name="primary_variant">#FF16A085</color>
+    <color name="primary_dark">#FF0E7C61</color>
+    <color name="primary_light">#FF48D1B5</color>
+    
+    <!-- Secondary Colors - Warm Sunset -->
+    <color name="secondary">#FFFF7675</color>
+    <color name="secondary_variant">#FFE17055</color>
+    <color name="secondary_light">#FFFAB1A0</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_purple">#FFA29BFE</color>
+    <color name="accent_gold">#FFFFEAA7</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FFF8F9FA</color>
+    <color name="background_white">#FFFFFFFF</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FFF1F3F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FF2D3436</color>
+    <color name="text_secondary">#FF636E72</color>
+    <color name="text_hint">#FFB2BEC3</color>
+    <color name="text_on_primary">#FFFFFFFF</color>
+    
+    <!-- State Colors -->
+    <color name="error">#FFE74C3C</color>
+    <color name="success">#FF27AE60</color>
+    <color name="warning">#FFF39C12</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#FF1ABC9C</color>
+    <color name="gradient_end">#FFA29BFE</color>
+    <color name="gradient_sunset_start">#FFFF7675</color>
+    <color name="gradient_sunset_end">#FFA29BFE</color>
+    
+    <!-- Divider & Border -->
+    <color name="divider">#FFDFE6E9</color>
+    <color name="border">#FFE0E0E0</color>
+    
+    <!-- Social Login Colors -->
+    <color name="google_color">#FFFFFFFF</color>
+    <color name="kakao_color">#FFFEE500</color>
+    <color name="naver_color">#FF03C75A</color>
+</resources>
